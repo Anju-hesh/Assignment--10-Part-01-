@@ -139,7 +139,7 @@ nav ul li a:hover {
 
 .content h2 {
     position: absolute;
-    top: 20px;
+    top: 55px;
     left: 35%;
     color: antiquewhite;
     font-size: 4rem;
@@ -150,6 +150,7 @@ nav ul li a:hover {
 .content p {
     position: absolute;
     bottom: 20px;
+    right: 20px;
     font-size: 1.2rem;
     line-height: 1.6;
     margin-bottom: 30px;
@@ -181,7 +182,6 @@ nav ul li a:hover {
     margin-left: 20px;
     z-index: 1001;
     transition: transform  0.3s ease;
-    /* transition-duration: 5s; */
 }
 
 .burger-menu.active {
