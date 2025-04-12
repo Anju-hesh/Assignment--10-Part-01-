@@ -1,0 +1,148 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fffefa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* header {
+    background-color: #f5e7d7;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  #logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  #logo {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  header h3 {
+    font-size: 1.4rem;
+    color: #e67e22;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+  }
+  
+  nav li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  nav li a:hover {
+    color: #e67e22;
+  }
+  
+  .burger-menu {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+  }
+  
+  .rightSide .btns {
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+  }
+  
+  ion-icon {
+    font-size: 24px;
+    cursor: pointer;
+  }
+   */
+  h1 {
+    font-size: 2.2rem;
+    color: #d35400;
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: underline;
+  }
+  
+  h2 {
+    margin-top: 20px;
+    color: #2c3e50;
+    text-align: center;
+  }
+  
+  h2:nth-of-type(1) {
+    color: #f39c12;
+  }
+  
+  h2:nth-of-type(2) {
+    color: #e74c3c;
+    font-weight: bold;
+  }
+  
+  img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 90%;
+    height: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  iframe {
+    display: block;
+    margin: 30px auto;
+    border-radius: 12px;
+    max-width: 90%;
+  }
+  
+  .ingrediance > ul {
+    background-color: #fef9f4;
+    padding: 20px;
+    margin: 30px auto;
+    width: 90%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    list-style-type: disc;
+  }
+  
+  ul h2 {
+    margin-bottom: 15px;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+  
+  ol {
+    background-color: #fdfaf5;
+    padding: 20px;
+    margin: 40px auto;
+    width: 90%;
+    max-width: 800px;
+    border-left: 5px solid #e67e22;
+    border-radius: 8px;
+    list-style-position: inside;
+  }
+  
+  ol h2 {
+    margin-bottom: 15px;
+  }
+  
+  ol li {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+  

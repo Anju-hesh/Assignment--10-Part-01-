@@ -1,0 +1,95 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffaf0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header h3 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin: 20px 0;
+    color: #2e2e2e;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 15px 0 10px 0;
+}
+
+img {
+    display: block;
+    margin: 0 auto 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.ingrediance>ul {
+    background-color: #fff3e0;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    list-style-type: square;
+}
+
+ul h2 {
+    color: #ff5722;
+    border-bottom: 2px solid #ffa000;
+    padding-bottom: 5px;
+}
+
+ol {
+    background-color: #f0fff0;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    list-style-position: inside;
+}
+
+ol h2 {
+    color: #4caf50;
+    border-bottom: 2px solid #81c784;
+    padding-bottom: 5px;
+}
+
+ol li p {
+    margin: 10px 0;
+}
+
+h2[style*="color: rgb(255, 251, 0)"] {
+    color: #fbc02d !important;
+}
+
+h2[style*="color: rgb(255, 0, 0)"] {
+    color: #e53935 !important;
+}
+
+@media screen and (max-width: 768px) {
+    ul, ol {
+        width: 90%;
+    }
+
+    iframe {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16/9;
+    }
+}
