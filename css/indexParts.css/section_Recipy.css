@@ -1,228 +1,139 @@
-.main2 {
-    padding: 80px 14vw;
-    background-color: #f9f9f9;
+#section_Recipy {
+    background: linear-gradient(135deg, #fff8f0, #ffe6e6);
+    padding: 60px 20px;
     text-align: center;
-  }
-  
-  .main2 h2 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 2.5rem;
-    color: #333;
-    margin-bottom: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#section_Recipy h2 {
+    font-size: 36px;
+    color: #e65c00;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.recipyPara {
     position: relative;
-    display: inline-block;
-    font-weight: 600;
-  }
-  
-  .main2 h2::after {
-    content: '';
-    position: absolute;
-    bottom: -10px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80px;
-    height: 3px;
-    background-color: #0096c7;
-  }
-  
-  .main2 p {
-    color: #6B6E74;
-    max-width: 800px;
-    margin: 0 auto 3rem;
-    line-height: 1.6;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-  }
-  
-  .sec_4Grid-container {
+    font-size: 18px;
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+    color: #444;
+    line-height: 1.7;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    left: 15%;
+}
+
+.sec_4Grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 30px;
-    width: 100%;
-    padding: 20px 0 50px;
-  }
-  
-  .sec_4Grid-item {
-    background: white;
-    border-radius: 10px;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.sec_4Grid-item {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px;
-    border: 1px solid #E2E2E2;
-  }
-  
-  .sec_4Grid-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 25px rgba(0, 150, 199, 0.15);
-    border-color: rgba(0, 150, 199, 0.2);
-  }
-  
-  .sec_4Grid-item img {
-    width: 200px;
+    padding: 20px;
+}
+
+.sec_4Grid-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.sec_4Grid-item img {
+    width: 100%;
     height: 200px;
     object-fit: cover;
-    border-radius: 50%;
-    margin-bottom: 30px;
-    transition: transform 0.3s ease;
-  }
-  
-  .sec_4Grid-item:hover img {
-    transform: scale(1.05);
-  }
-  
-  .sec_4GridTopic {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: #333;
-    margin-bottom: 1rem;
-    text-align: center;
-  }
-  
-  .sec_4GridDes {
-    font-family: 'Poppins', sans-serif;
-    color: #808080;
-    font-size: 0.95rem;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.sec_4GridTopic {
+    font-size: 24px;
+    color: #ff6600;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.sec_4GridDes {
+    font-size: 16px;
+    color: #666;
+    padding: 10px;
     line-height: 1.6;
-    margin-bottom: 1.5rem;
-    text-align: center;
-    flex-grow: 1;
-  }
-  
-  .sec_4GridReadMore {
-    display: inline-flex;
-    align-items: center;
-    color: #0096c7;
-    font-family: 'Poppins', sans-serif;
-    font-size: 0.95rem;
-    font-weight: 500;
+}
+
+.sec_4GridReadMore {
+    color: #ffffff;
+    background-color: #ff6600;
+    padding: 10px 16px;
+    border-radius: 20px;
+    margin-top: auto;
+    transition: background 0.3s ease;
+    display: inline-block;
+}
+
+.sec_4GridReadMore:hover {
+    background-color: #cc5200;
+    cursor: pointer;
+}
+
+.anchor {
     text-decoration: none;
-    transition: all 0.3s ease;
-  }
-  
-  .sec_4GridReadMore:hover {
-    color: #0077a3;
-    transform: translateX(5px);
-  }
-  
-  .sec_4GridReadMore::after {
-    content: '→';
-    margin-left: 5px;
-    transition: transform 0.3s ease;
-  }
-  
-  .sec_4GridReadMore:hover::after {
-    transform: translateX(3px);
-  }
-  
-  @media (max-width: 1200px) {
-    .main2 {
-      padding: 80px 8vw;
+}
+
+@media (max-width: 768px) {
+    #section_Recipy h2 {
+        font-size: 28px;
     }
-  }
-  
-  @media (max-width: 992px) {
-    .main2 {
-      padding: 70px 6vw;
+
+    .recipyPara {
+        position: relative;
+        left: 2%;
+        font-size: 16px;
+        padding: 15px;
     }
-    
-    .sec_4Grid-container {
-      gap: 25px;
-    }
-    
-    .sec_4Grid-item {
-      padding: 25px;
-    }
-    
-    .sec_4Grid-item img {
-      width: 180px;
-      height: 180px;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .main2 {
-      padding: 60px 5vw;
-    }
-    
-    .main2 h2 {
-      font-size: 2rem;
-    }
-    
-    .main2 p {
-      font-size: 0.95rem;
-      margin-bottom: 2.5rem;
-    }
-    
-    .sec_4Grid-container {
-      grid-template-columns: repeat(auto-fit, minmax(280px, 2fr));
-      gap: 20px;
-    }
-    
-    .sec_4Grid-item img {
-      width: 160px;
-      height: 160px;
-    }
-    
+
     .sec_4GridTopic {
-      font-size: 1.15rem;
+        font-size: 20px;
     }
-  }
-  
-  @media (max-width: 576px) {
-    .main2 {
-      padding: 50px 15px;
-    }
-    
-    .main2 h2 {
-      font-size: 1.8rem;
-    }
-    
-    .main2 p {
-      font-size: 0.9rem;
-      margin-bottom: 2rem;
-    }
-    
-    .sec_4Grid-container {
-      grid-template-columns: 1fr;
-      max-width: 400px;
-      margin: 0 auto;
-    }
-    
-    .sec_4Grid-item {
-      padding: 30px 20px;
-    }
-    
-    .sec_4Grid-item img {
-      width: 150px;
-      height: 150px;
-    }
-  }
-  
-  @media (max-width: 400px) {
-    .main2 h2 {
-      font-size: 1.6rem;
-    }
-    
-    .sec_4Grid-item {
-      padding: 25px 15px;
-    }
-    
-    .sec_4Grid-item img {
-      width: 140px;
-      height: 140px;
-    }
-    
-    .sec_4GridTopic {
-      font-size: 1.1rem;
-    }
-    
+
     .sec_4GridDes {
-      font-size: 0.9rem;
+        font-size: 15px;
     }
-  }
+
+    .sec_4GridReadMore {
+        padding: 8px 14px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .recipyPara {
+        padding: 10px;
+    }
+
+    .sec_4Grid-container {
+        gap: 20px;
+        padding: 0 10px;
+    }
+
+    .sec_4Grid-item {
+        padding: 15px;
+    }
+
+    .sec_4Grid-item img {
+        height: 180px;
+    }
+}
